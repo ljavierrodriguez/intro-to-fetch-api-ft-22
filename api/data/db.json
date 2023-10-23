@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Luis Rodriguez",
+            "messages": "http://localhost:3003/users/1/messages"
+        },
+        {
+            "id": 2,
+            "name": "Rodrigo Solis",
+            "messages": "http://localhost:3003/users/2/messages"
+        },
+        {
+            "id": 3,
+            "name": "Liliana",
+            "messages": "http://localhost:3003/users/3/messages"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Post 1",
+            "user_id": 1
+        },
+        {
+            "id": 2,
+            "title": "Post 2",
+            "user_id": 1
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "message": "Hello World!",
+            "user_id": 1
+        },
+        {
+            "id": 2,
+            "message": "WTF!",
+            "user_id": 3
+        },
+        {
+            "id": 3,
+            "message": "Hell!",
+            "user_id": 2
+        }
+    ]
+}
